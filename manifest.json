@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name":"AutoConnect",
+    "version":"1.0",
+    "browser_action":{
+        "default_popup":"Popup.html",
+        "default_title":"AutoConnect",
+        "default_icon":"linkedin.png"
+    },
+    "icons": {      
+        "48": "linkedin.png"     
+    },
+    "permissions": ["tabs", "<all_urls>","storage"]
+}

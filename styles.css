@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:350px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.container__header{
+    background-color: #0A66a2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container__main{
+     color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container__main__start-button{
+    background-color:green;
+    color: white;
+    margin-top: 10px;
+    border:none;
+    font-weight: 650;
+    padding:10px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.container__main__start-button:hover{
+    background-color:rgb(84, 177, 84);
+}
+
